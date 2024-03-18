@@ -1,0 +1,22 @@
+.features {
+  padding: 16rem 2.5% 7.3rem;
+  // border: 2px solid orange;
+  background: #fafaf9;
+
+  @media screen and (max-width: 768px) {
+    padding: 8.5rem 5% 4.7rem;
+  }
+
+  @media screen and (max-width: 500px) {
+  }
+
+  &List {
+    padding-top: 5rem;
+    display: flex;
+
+    // border: 2px solid orange;
+    row-gap: 2.4rem;
+    column-gap: 2.8rem;
+    flex-wrap: wrap;
+  }
+}

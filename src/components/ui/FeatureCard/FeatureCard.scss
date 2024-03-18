@@ -1,0 +1,49 @@
+.featureCard {
+  border-radius: 5px;
+  border: 4px solid #e4e5e9;
+  padding: 2.4rem 3rem 1.3rem;
+  flex: 1 1 45%;
+
+  @media screen and (max-width: 500px) {
+    flex: 1 1 50%;
+  }
+
+  &Img {
+    img {
+      width: 100%;
+      height: auto;
+      // border: 1px solid red;
+    }
+  }
+
+  &Title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 2.5rem 0 1.7rem;
+
+    @media screen and (max-width: 500px) {
+      font-size: 1.6rem;
+      margin: 1.092rem 0 1.044rem;
+    }
+  }
+
+  &Body {
+    font-weight: 400;
+    font-size: 1.6rem;
+    width: 95%;
+    // border: 1px solid red;
+    line-height: 24px;
+    margin-bottom: 1.6rem;
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+      font-size: 1.2rem;
+      line-height: 18px;
+    }
+  }
+
+  &Footer {
+    // border: 1px solid red;
+    width: fit-content;
+  }
+}

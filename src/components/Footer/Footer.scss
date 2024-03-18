@@ -1,0 +1,93 @@
+.footer {
+  padding: 13rem 2.5% 0;
+  background: black;
+  color: white;
+
+  &Body {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1fr;
+  }
+
+  &Contact {
+    font-size: 2.4rem;
+    line-height: 2.684rem;
+
+    &Email {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    &Connect {
+      margin-top: 2.1rem;
+      margin-bottom: 1.2rem;
+    }
+
+    &Links {
+      //   border: 1px solid red;
+      width: 55%;
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &Input {
+    // border: 1px solid red;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid white;
+      border-radius: 48px;
+      padding: 0.8rem 1rem;
+      width: 100%;
+      background: #3a3939;
+
+      input {
+        background: #3a3939;
+        // display: none;
+        flex: 1;
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 1.6rem;
+        color: white;
+
+        &::placeholder {
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 2.1rem;
+        }
+      }
+    }
+  }
+
+  &Others {
+    display: flex;
+    flex-direction: column;
+    // align-items: flex-end;
+
+    & > div {
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 2.4rem;
+    }
+
+    & > div p {
+      font-size: 2.4rem;
+    }
+  }
+
+  &CopyRight {
+    text-align: center;
+    margin-top: 8.2rem;
+    padding-bottom: 2.284rem;
+    font-size: 1.2rem;
+    line-height: 1.506rem;
+  }
+}

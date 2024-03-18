@@ -1,0 +1,27 @@
+.getStarted {
+  margin: 0 2.5%;
+  background-image: url("../../assets/getStartedImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 8px;
+
+  color: white;
+  padding: 3.2rem 0 3.2rem 4.3rem;
+  margin-bottom: 20.8rem;
+
+  &Header {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 5.6rem;
+    // border: 1px solid red;
+    width: 60%;
+  }
+
+  &Text {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin: 1.2rem 0 1.2rem;
+  }
+}

@@ -1,0 +1,10 @@
+.linkUI {
+  color: #000;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+  //   &.active {
+  //     color: #f00;
+  //   }
+}

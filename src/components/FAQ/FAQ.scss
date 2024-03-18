@@ -1,0 +1,20 @@
+.faq {
+  width: 80%;
+  margin: 10.8rem auto 23.5rem;
+  border: 4px solid #0a264f;
+  border-radius: 16px;
+
+  &Header {
+    padding: 4.6rem 0 3.5rem 0;
+    display: flex;
+    justify-content: center;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    font-weight: 500;
+    border-bottom: 4px solid #0a264f;
+  }
+
+  &Body {
+    padding: 3.4rem 0 5.4rem 5.9rem;
+  }
+}

@@ -1,0 +1,15 @@
+.exploreSwiftButton {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.6rem;
+  color: #15477a;
+  padding: 1.6rem 0;
+  @media screen and (max-width: 500px) {
+    padding: 1rem 0;
+  }
+  font-weight: 500;
+  cursor: pointer;
+}

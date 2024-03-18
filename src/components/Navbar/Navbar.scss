@@ -1,0 +1,64 @@
+.navbar {
+  padding: 0 2.5%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin-top: 7.4rem;
+  // border: 1px solid red;
+  align-items: center;
+
+  @media screen and (max-width: 1200px) {
+    // display: none;
+    font-size: 1.7rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 2.2rem;
+    padding: 2.2rem 5%;
+  }
+
+  &Logo {
+    flex: 0.4;
+    @media screen and (max-width: 900px) {
+      flex: 0.2;
+    }
+    // border: 1px solid red;
+  }
+
+  &Links {
+    display: flex;
+    gap: 3.3rem;
+    // border: 1px solid green;
+
+    li {
+      list-style-type: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &getStarted {
+    gap: 3.5rem;
+    display: flex;
+    flex: 0.4;
+    @media screen and (max-width: 900px) {
+      flex: 0.6;
+    }
+    justify-content: flex-end;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &MenuIcon {
+    display: none;
+
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+  }
+}
