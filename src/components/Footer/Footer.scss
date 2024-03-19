@@ -2,10 +2,19 @@
   padding: 13rem 2.5% 0;
   background: black;
   color: white;
+  border: 1px solid red;
 
   &Body {
     display: grid;
     grid-template-columns: 1fr 1.3fr 1fr;
+    // border: 1px solid orange;
+
+    @media screen and (max-width: 1024px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    padding: 4.9rem 5% 0;
   }
 
   &Contact {
@@ -21,10 +30,14 @@
     &Connect {
       margin-top: 2.1rem;
       margin-bottom: 1.2rem;
+
+      @media screen and (max-width: 500px) {
+        margin: 3rem 0;
+      }
     }
 
     &Links {
-      //   border: 1px solid red;
+      // border: 1px solid red;
       width: 55%;
       display: flex;
       justify-content: space-between;
@@ -32,11 +45,30 @@
       img {
         cursor: pointer;
       }
+
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+      margin-inline: auto;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 500px) {
+      // text-align: left;
+      margin-inline: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 1.6rem;
+      line-height: 2rem;
     }
   }
 
   &Input {
-    // border: 1px solid red;
+    border: 1px solid red;
     div {
       display: flex;
       align-items: center;
@@ -63,6 +95,14 @@
           line-height: 2.1rem;
         }
       }
+
+      @media screen and (max-width: 500px) {
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+      margin: 3rem auto 4rem;
+      // text-align: left;
     }
   }
 
@@ -80,6 +120,22 @@
 
     & > div p {
       font-size: 2.4rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+      margin-inline: auto;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 500px) {
+      margin-inline: 0;
+      border: 2px solid blue;
+
+      & > div {
+        // justify-content: flex-start;
+        // text-align: left;
+        margin-right: auto;
+      }
     }
   }
 
