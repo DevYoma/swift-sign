@@ -4,6 +4,11 @@
   border: 4px solid #0a264f;
   border-radius: 16px;
 
+  @media screen and (max-width: 768px) {
+    // border: 1px solid red;
+    margin: 8rem auto 6.3rem;
+  }
+
   &Header {
     padding: 4.6rem 0 3.5rem 0;
     display: flex;
@@ -12,9 +17,18 @@
     line-height: 3.2rem;
     font-weight: 500;
     border-bottom: 4px solid #0a264f;
+
+    @media screen and (max-width: 768px) {
+      padding: 2.5rem 4rem 1.8rem;
+      font-size: 1.8rem;
+    }
   }
 
   &Body {
     padding: 3.4rem 0 5.4rem 5.9rem;
+
+    @media screen and (max-width: 768px) {
+      padding: 1.8rem 0 2.35rem 1.4rem;
+    }
   }
 }

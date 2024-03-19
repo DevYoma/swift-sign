@@ -3,12 +3,20 @@
   background-image: url("../../assets/getStartedImg.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   border-radius: 8px;
 
   color: white;
   padding: 3.2rem 0 3.2rem 4.3rem;
   margin-bottom: 20.8rem;
+
+  @media screen and (max-width: 1024px) {
+    padding: 2.5rem 3rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-bottom: 8.9rem;
+  }
 
   &Header {
     font-size: 3.2rem;
@@ -16,6 +24,18 @@
     line-height: 5.6rem;
     // border: 1px solid red;
     width: 60%;
+
+    @media screen and (max-width: 1024px) {
+      width: 80%;
+      font-size: 2.6rem;
+      line-height: 5.2rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 2rem;
+      line-height: 2.8rem;
+      font-weight: 700px;
+    }
   }
 
   &Text {
@@ -23,5 +43,14 @@
     font-size: 2.4rem;
     line-height: 3.2rem;
     margin: 1.2rem 0 1.2rem;
+
+    @media screen and (max-width: 768px) {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+
+    @media screen and (max-width: 500px) {
+      font-size: 1.6rem;
+    }
   }
 }
